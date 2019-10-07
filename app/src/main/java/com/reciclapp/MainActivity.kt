@@ -17,6 +17,12 @@ class MainActivity : AppCompatActivity() {
             // start your next activity
             startActivity(intent)
         }
+
+        but_centros.setOnClickListener {
+            val intent = Intent(this, Activity_Mapa::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
     }
 
     companion object {
