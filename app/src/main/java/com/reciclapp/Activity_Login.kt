@@ -9,11 +9,19 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import kotlinx.android.synthetic.main.activity__login.*
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.util.Base64
+import android.util.Log
 import android.widget.Toast
 import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
+import java.security.MessageDigest
+import java.security.NoSuchAlgorithmException
+
 
 class Activity_Login : AppCompatActivity() {
 
@@ -28,6 +36,28 @@ class Activity_Login : AppCompatActivity() {
         configureGoogleSignIn()
         setupUI()
         firebaseAuth = FirebaseAuth.getInstance()
+
+        printKeyHash()
+    }
+
+    private fun printKeyHash() {
+        try{
+            val info = packageManager.getPackageInfo("com.reciclapp", PackageManager.GET_SIGNATURES)
+            for(signature in info.signatures)
+            {
+                val md = MessageDigest.getInstance("SHA");
+                md.update(signature.toByteArray())
+                Log.e("KEYHASH", Base64.encodeToString(md.digest(),Base64.DEFAULT))
+            }
+        }
+        catch (e:PackageManager.NameNotFoundException)
+        {
+
+        }
+        catch (e:NoSuchAlgorithmException)
+        {
+
+        }
     }
 
     override fun onStart() {

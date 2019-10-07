@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Reciclapp</string>
     <string name="title_activity__main">Home</string>
-    <string name="title_activity__puntos">Home</string>
+    <string name="title_activity__puntos">Puntos</string>
     <string name="title_activity__login">Login</string>
     <string name="title_activity__mapa">Mapa</string>
-
+    <string name="map_key" translatable="false"></string>
 </resources>
