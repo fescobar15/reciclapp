@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1007740317354",
+    "firebase_url": "https://reciclapp-7ac03.firebaseio.com",
+    "project_id": "reciclapp-7ac03",
+    "storage_bucket": "reciclapp-7ac03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007740317354:android:c6bc283c7aa2455e856ad3",
+        "android_client_info": {
+          "package_name": "com.reciclapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007740317354-hsd3b480a7ps86jh3pgs4cg2ss8ngjqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reciclapp",
+            "certificate_hash": "c32c3c63e2de701bd64d65d7e4ce1288e3c2fefc"
+          }
+        },
+        {
+          "client_id": "1007740317354-u8mmmcsln0mvufdmbgac297f9ji5lpal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATJUcmWfi1oX3muNQUFQGR2HUNG-nYI2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007740317354-o8lrcdsvs8pmio4c85muoo6tum2aasu0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007740317354-p4cs9j14p21qtvjopnh15fvs5monsu7g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wildproductions.reciclapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
