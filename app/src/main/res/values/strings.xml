@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Reciclapp</string>
     <string name="title_activity_prueba">prueba</string>
+<<<<<<< HEAD
     <string name="title_activity_login">Login</string>
+=======
+    <string name="title_activity__mapa">Mapa</string>
+>>>>>>> refs/remotes/origin/master
 </resources>
