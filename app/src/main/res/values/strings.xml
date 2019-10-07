@@ -4,5 +4,5 @@
     <string name="title_activity__puntos">Puntos</string>
     <string name="title_activity__login">Login</string>
     <string name="title_activity__mapa">Mapa</string>
-    <string name="map_key" translatable="false"></string>
+    <string name="map_key" translatable="false">AIzaSyCSZ_8S5il5knxmlzU2P6SAOz9KdCiz05s</string>
 </resources>

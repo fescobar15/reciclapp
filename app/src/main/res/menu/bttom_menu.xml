@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/action_puntos"
+            android:enabled="true"
+            android:title="Puntos"
+            android:icon="@drawable/ic_stars_black_24dp"
+            app:showAsAction="ifRoom"
+            />
+
+    <item
+            android:id="@+id/action_juego"
+            android:enabled="true"
+            android:title="Juego"
+            android:icon="@drawable/ic_videogame_asset_black_24dp"
+            app:showAsAction="ifRoom"
+            />
+
+    <item
+            android:id="@+id/action_home"
+            android:enabled="true"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black_24dp"
+            app:showAsAction="ifRoom"
+            />
+
+    <item
+            android:id="@+id/action_camara"
+            android:enabled="true"
+            android:title="Camara"
+            android:icon="@drawable/ic_photo_camera_black_24dp"
+            app:showAsAction="ifRoom"
+            />
+
+    <item
+            android:id="@+id/action_centros"
+            android:enabled="true"
+            android:title="Centros"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            app:showAsAction="ifRoom"
+            />
+
+
+
+</menu>
